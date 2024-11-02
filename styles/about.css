@@ -1,0 +1,74 @@
+#about {
+   & .containerAbout {
+        display: flex;
+        margin: 58px 56px;
+   }
+   
+   & .containerInfo {
+        width: 50%;
+        height: 20rem;
+   }
+
+   & .subtitle {
+    font-weight: 600;
+    size: 20px;
+    line-height: 30px;
+   }
+
+   & h1 {
+    font-weight: 600;
+    size: 68px;
+    line-height: 69.7px;
+   }
+
+   & .textInfo {
+    font-weight: 400;
+    size: 17px;
+    line-height: 27px;
+   }
+
+   & .containerImage {
+     width: 50%;
+     height: 20rem;
+    
+        & img {
+            width: 480px;
+            height: 362px;
+        }
+   }
+
+  & .containerLogos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    width: 100%;
+    height: 130px;
+
+
+        & img:nth-child(1) {
+            width: 116.07px;
+            height: 27.98px;
+        }
+
+        & img:nth-child(2) {
+            width: 86.42px;
+            height: 30.74px;
+        }
+
+        & img:nth-child(3) {
+            width: 113.11px;
+            height: 17.41px;
+        } 
+
+        & img:nth-child(4) {
+            width: 38.11px;
+            height: 46.83px;
+        }
+
+        & img:nth-child(5) {
+            width: 64.94px;
+            height: 43.67px;
+        }
+    }
+
+}
