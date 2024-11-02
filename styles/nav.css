@@ -1,0 +1,23 @@
+nav {
+    margin: 24px 42px;
+
+    & a {
+        text-decoration: none;
+        color: black;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 27px;
+    }
+
+    & ul {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    & ul a:nth-child(1) {
+        margin-right: auto;
+    }
+}
+
+
